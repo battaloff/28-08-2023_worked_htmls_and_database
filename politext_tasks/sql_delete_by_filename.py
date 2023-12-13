@@ -5,7 +5,7 @@ conn = sqlite3.connect(r'D:\###TASKS\newproject\politext_tasks\db.sqlite3')
 cursor = conn.cursor()
 
 # Значение, которое вы хотите использовать в качестве условия
-file_name_to_delete = '775-635_16_ISHONCH_2980 - SAKATA KATALOG.pdf'
+file_name_to_delete = '525-459_4_ISMOIL_ray-n_pharm_mitera_andras_dekabr_montaj.pdf'
 
 # Удаление строк из таблицы
 delete_query = """
